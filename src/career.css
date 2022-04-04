@@ -1,0 +1,71 @@
+.career_home_div{width: 100%; height: 50px; background: rgb(1, 1, 19);}
+@media screen and (max-width:720px) { 
+    .career_home_div{display:none;}}
+    /* ------------------------------------ */
+.career_search_div{width: 100%; height: 90px; display: flex;
+background: rgb(1, 1, 19);}
+@media screen and (max-width:720px) {
+.career_search_div{align-items: center; justify-content: center;
+height: 60px;}}
+
+.search_form{width: 35%; height: 40%; background:none; margin-top: 2%; margin-left: 5%;
+display: flex;}
+@media screen and (max-width:720px) {
+.search_form{width: 80%;margin-left: 0%;}}
+  
+.search_form input[type="text"]{width: 90%; height: 90%;border: none; background:rgb(17, 17, 27);
+    border-radius: 3px 0px 0px 3px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px; color: rgb(91, 91, 92); padding-left: 10px;}
+.search_form button{ width: 10%; height: 95%; border-radius:0px 3px 3px 0px;
+    border: none;background:rgb(17, 17, 27);}
+@media screen and (max-width:720px) {
+.search_form button{height: 100%;}} 
+
+.search_form button img{ width: 70%;}
+
+.job_cont{width: 100%; height: 500px; display: flex; justify-content: center;}
+.no_job_msg_div{ width: 80%; height:90%;background: none ; margin-top: 1%;
+display: flex; flex-direction: column; align-items: center;}
+
+@media screen and (max-width:720px) {
+.no_job_msg_div {align-items: center; }}
+
+.job_msg{width: 40%; height: 20%; background:rgb(229, 236, 240);
+border-radius: 8px; display: flex; justify-content: center;}
+@media screen and (max-width:720px) {
+.job_msg{width: 95%; height:15% ;}}
+
+.job_msg1{width: 15%; height: 80%; background:none; margin-top: 2%;
+    text-align: center;}
+@media screen and (max-width:720px) {
+ .job_msg1{ width:20%}}
+
+.job_msg1 img{ width: 50%; height: 40%; margin-top: 8%;}
+
+.job_msg2{width: 60%; height: 40%; background:none; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 13px; margin-top: 5%; font-weight: bold; color: rgb(1, 1, 19);}
+@media screen and (max-width:720px) {
+ .job_msg2 {font-size: 10px;} }
+
+.job_img{width: 70px; height: 70px; background:none;text-align: center;
+ margin-top: 5%; display: flex;align-items: center; justify-content: center;}
+
+.job_img img{width: 100%; height: 100%; animation: job_img 2s infinite linear;}
+@keyframes job_img { from{width: 60%;height: 70%; }to{width: 100%;height: 100%;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+.serv_title{ width:100%; height: 90px; background: rgb(1, 1, 19);
+display:flex; justify-content: center;}
+
+@media screen and (max-width:720px) {
+.serv_title{height: 90px; align-items: center;}}
+
+.serv_title .title{ color:#fff; width: 25%;text-align:center;}
+@media screen and (max-width:720px) {
+.serv_title .title{width: 70%;}}
+@media screen and (max-width:720px) {
+    .serv_title .title_txt{font-size: 19px; margin-bottom: 5%;}}
+    @media screen and (max-width:720px) {
+        .serv_title .title_underline{border: none;}}
+
+.serv_container{width: 100%; height: auto; display:flex;
+     flex-direction: column;  align-items: center; }
+.serv_item_one{ width: 70%; height: 600px; background: none;
+     margin-bottom: 1%; display:flex; flex-direction: column;margin-top:3%}
+@media screen and (max-width:720px){
+.serv_item_one{width: 90%; height: auto;}}
+
+.serv_item_image{width:100%;height: 60%; background: #eee; }
+@media screen and (max-width:720px) {
+ .serv_item_image{ height: 200px;}}
+
+.serv_item_img{width:100%;height: 100%;  }
+.serv_item_desc{width:100%;height: 40%; background:none;
+display: flex; flex-direction: column; }
+@media screen and (max-width:720px) {
+ .serv_item_desc{height: auto; align-items: center; margin-top: 5%;}}
+ 
+.overview_title{width: 60%; height: auto; font-family: Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri;
+    font-size: 25px; margin-top: 2%; font-weight: bold;display: flex;}
+@media screen and (max-width:720px) {
+ .overview_title{width: 100%; font-size: 21px; align-items: center;
+    justify-content: center;}}
+
+.s_underline{width:25px;height: 2px; padding-left: 20px; background:rgb(250,91,6);
+ margin-top: 3%;}
+
+.overview_desc{width: 80%; height: auto; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px; margin-top: 1%;}
+@media screen and (max-width:720px) {
+  .overview_desc{width: 100%;}}
+/* -------------------------- */
+.serv_item_two{ width: 70%; height: auto; background: none;
+     margin-bottom: 3%; }
+
+@media screen and (max-width:720px) {
+ .serv_item_two{width: 90%; height: auto; margin-top: 5%;}}
+
+.portfolio_txt{width:80% ; height:auto; font-family:Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri;
+    font-size:25px; font-weight: bold ; display: flex; background: none;}
+@media screen and (max-width:720px) {
+  .portfolio_txt{font-size: 21px; width: 100%; align-items:center;justify-content: center;}}
+
+.prev_next{position: absolute; width: 70%; height: 50px;
+     background: none;z-index: 1; margin-top:18%; display: flex;}
+@media screen and (max-width:720px) {
+ .prev_next{margin-top:25%;}}
+
+.prev{width: 40px; height: 40px; border-radius: 50%; 
+    background: rgba(5, 1, 22, 0.8);left: 8%; position: relative;
+     display: flex;justify-content: center; align-items: center;
+     font-size: 16px; font-weight: bold; color: #fff; cursor: pointer;
+    border: 1px solid #fff;}
+@media screen and (max-width:720px) {
+ .prev{width: 35px; height: 35px;}}     
+.prev:hover{background: rgb(5, 1, 22, 0.9); }    
+.next{width: 40px; height: 40px; border-radius: 50%; 
+    background: rgb(5, 1, 22, 0.8); left: 85%; position: relative;
+    display: flex;justify-content: center; align-items: center;
+font-size: 16px; font-weight: bold;color: #fff;cursor: pointer;
+border: 1px solid #fff;}
+@media screen and (max-width:720px) {
+ .next{width: 35px; height: 35px;left: 95%;}}
+ 
+.next:hover{background: rgb(5, 1, 22, 0.9); }
+    
+.portfolio_img{width: 100%; height: 400px; background: #eee; margin-top: 3%;
+display:flex; overflow:hidden ; position: relative; }
+@media screen and (max-width:720px) {
+ .portfolio_img{height: 200px;}}
+
+.port_slide{position:absolute; width:100%; height: 100%;}
+
+.portfolio_desc{ width: 100%; height: auto; display:flex;
+     flex-direction: column; background:none}
+.p_desc_title{font-family: Bahnschrift, 'Bahnschrift Light SemiCondensed', Arial, Calibri;
+    font-size: 18px; margin-top: 3%;font-weight: bold; }
+.p_desc_desc{width: 60%; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px; margin-top: 2%;}
+@media screen and (max-width:720px) {
+.p_desc_desc{width: 95%;}}
+
+.p_desc_list{width: 50%;}
+@media screen and (max-width:720px) {
+.p_desc_list{width: 90%;}}
+
+.port_list{list-style-image: url('../src/bullet.png');}
+@media screen and (max-width:720px) {
+ .port_list{list-style-image: url('../src/bullet2.png');}}
+
+.port_list li{line-height: 28px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;}
+
+
+
+
+
